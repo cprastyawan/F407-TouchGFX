@@ -1,0 +1,405 @@
+{
+  "Application": {
+    "Screens": [
+      {
+        "Name": "mainScreen",
+        "CanvasBufferSize": 3600,
+        "Components": [
+          {
+            "Type": "Container",
+            "Name": "topContainer",
+            "Width": 240,
+            "Height": 27,
+            "Components": [
+              {
+                "Type": "BoxProgress",
+                "Name": "batteryProgress",
+                "X": 175,
+                "Y": 6,
+                "Width": 45,
+                "Height": 14,
+                "Color": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "Direction": "Right",
+                "IndicatorPositionX": 2,
+                "IndicatorPositionY": 2,
+                "IndicatorPositionWidth": 45,
+                "IndicatorPositionHeight": 14,
+                "ProgressRangeMax": 100,
+                "ProgressInitialValue": 50
+              },
+              {
+                "Type": "TextArea",
+                "Name": "dateText",
+                "X": 86,
+                "Y": 6,
+                "Width": 72,
+                "Height": 15,
+                "TextId": "__SingleUse_MAZ1",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "AutoSize": true
+              },
+              {
+                "Type": "DigitalClock",
+                "Name": "digitalClock1",
+                "X": 6,
+                "Y": 6,
+                "Width": 65,
+                "Height": 15,
+                "TextColor": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "TextId": "__SingleUse_BJJN",
+                "DisplaySeconds": true,
+                "DisplayLeadingZeroForHourIndicator": true,
+                "InitialHour": 10,
+                "InitialMinute": 10
+              }
+            ]
+          },
+          {
+            "Type": "Container",
+            "Name": "mid1Container",
+            "Y": 31,
+            "Width": 240,
+            "Height": 27,
+            "Components": [
+              {
+                "Type": "TextArea",
+                "Name": "idnodeText",
+                "X": 16,
+                "Y": 6,
+                "Width": 67,
+                "Height": 15,
+                "TextId": "__SingleUse_4CH1",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "AutoSize": true
+              },
+              {
+                "Type": "TextArea",
+                "Name": "voltageText",
+                "X": 120,
+                "Y": 6,
+                "Width": 20,
+                "Height": 15,
+                "TextId": "__SingleUse_KVTF",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "AutoSize": true,
+                "Wildcard1": {
+                  "TextId": "__SingleUse_08X8",
+                  "UseBuffer": true,
+                  "BufferSize": 10
+                }
+              },
+              {
+                "Type": "TextArea",
+                "Name": "currentText",
+                "X": 190,
+                "Y": 6,
+                "Width": 20,
+                "Height": 15,
+                "TextId": "__SingleUse_I8OP",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "AutoSize": true,
+                "Wildcard1": {
+                  "TextId": "__SingleUse_L3YU",
+                  "UseBuffer": true,
+                  "BufferSize": 10
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Line",
+            "Name": "line1",
+            "Y": 31,
+            "Width": 240,
+            "Height": 15,
+            "Color": {
+              "Red": 20,
+              "Green": 245
+            },
+            "EndX": 420.0,
+            "LineWidth": 10.0,
+            "LineEndingStyle": "Butt"
+          },
+          {
+            "Type": "Container",
+            "Name": "mid2Container",
+            "Y": 69,
+            "Width": 240,
+            "Height": 83,
+            "Components": [
+              {
+                "Type": "TextArea",
+                "Name": "labelkirimText",
+                "X": 8,
+                "Y": 3,
+                "Width": 212,
+                "Height": 15,
+                "TextId": "__SingleUse_KYMK",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "AutoSize": true
+              },
+              {
+                "Type": "TextArea",
+                "Name": "kirimText",
+                "X": 9,
+                "Y": 16,
+                "Width": 232,
+                "Height": 67,
+                "TextId": "__SingleUse_MHEE",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "Wildcard1": {
+                  "UseBuffer": true,
+                  "BufferSize": 65
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Line",
+            "Name": "line2",
+            "Y": 62,
+            "Width": 240,
+            "Height": 15,
+            "Color": {
+              "Red": 20,
+              "Green": 245
+            },
+            "EndX": 420.0,
+            "LineWidth": 10.0,
+            "LineEndingStyle": "Butt"
+          },
+          {
+            "Type": "Line",
+            "Name": "line3",
+            "Y": 155,
+            "Width": 240,
+            "Height": 15,
+            "Color": {
+              "Red": 20,
+              "Green": 245
+            },
+            "EndX": 420.0,
+            "LineWidth": 10.0,
+            "LineEndingStyle": "Butt"
+          },
+          {
+            "Type": "Container",
+            "Name": "mid3Container",
+            "X": 1,
+            "Y": 162,
+            "Width": 240,
+            "Height": 83,
+            "Components": [
+              {
+                "Type": "TextArea",
+                "Name": "labelterimaText",
+                "X": 4,
+                "Y": -2,
+                "Width": 146,
+                "Height": 15,
+                "TextId": "__SingleUse_RUSE",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "AutoSize": true
+              },
+              {
+                "Type": "TextArea",
+                "Name": "terimaText",
+                "X": 4,
+                "Y": 13,
+                "Width": 232,
+                "Height": 57,
+                "TextId": "__SingleUse_DLKZ",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "Wildcard1": {
+                  "UseBuffer": true,
+                  "BufferSize": 65
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Line",
+            "Name": "line4",
+            "X": 1,
+            "Y": 242,
+            "Width": 240,
+            "Height": 15,
+            "Color": {
+              "Red": 20,
+              "Green": 245
+            },
+            "EndX": 420.0,
+            "LineWidth": 10.0,
+            "LineEndingStyle": "Butt"
+          },
+          {
+            "Type": "Container",
+            "Name": "bottomContainer",
+            "Y": 249,
+            "Width": 240,
+            "Height": 71,
+            "Components": [
+              {
+                "Type": "TextArea",
+                "Name": "latitudeText",
+                "X": 6,
+                "Y": 20,
+                "Width": 78,
+                "Height": 15,
+                "TextId": "__SingleUse_BDMO",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "AutoSize": true,
+                "Wildcard1": {
+                  "TextId": "__SingleUse_WYLU",
+                  "UseBuffer": true,
+                  "BufferSize": 33
+                }
+              },
+              {
+                "Type": "TextArea",
+                "Name": "longitudeText",
+                "X": 6,
+                "Y": 35,
+                "Width": 89,
+                "Height": 15,
+                "TextId": "__SingleUse_RJFK",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "AutoSize": true,
+                "Wildcard1": {
+                  "TextId": "__SingleUse_HGB8",
+                  "UseBuffer": true,
+                  "BufferSize": 33
+                }
+              },
+              {
+                "Type": "TextArea",
+                "Name": "lokasilabelText",
+                "X": 95,
+                "Width": 38,
+                "Height": 15,
+                "TextId": "__SingleUse_S8SJ",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "AutoSize": true
+              }
+            ]
+          }
+        ],
+        "Interactions": []
+      }
+    ],
+    "CustomContainerDefinitions": [],
+    "Name": "MyApplication",
+    "Resolution": {
+      "Width": 320,
+      "Height": 240
+    },
+    "SelectedColorDepth": 16,
+    "StartupScreenName": "mainScreen",
+    "SelectedStartupLanguage": "GB",
+    "Skin": "Blue",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "UIPath": ".",
+    "AvailableColorDepths": [
+      16
+    ],
+    "AvailableLCDs": {
+      "16": "LCD16bpp"
+    },
+    "AvailableSections": [
+      "ExtFlashSection",
+      "IntFlashSection"
+    ],
+    "AvailableResolutions": [
+      {
+        "Width": 320,
+        "Height": 240
+      }
+    ],
+    "PhysicalButtons": [],
+    "FrameworkFeatures": {
+      "LCD16bpp": {
+        "Id": "LCD16bpp",
+        "IsEnabled": true
+      }
+    },
+    "GenerateAssetsCommand": "make -f simulator/gcc/Makefile assets -j8",
+    "PostGenerateCommand": "touchgfx update_project --project-file=simulator/msvs/Application.vcxproj",
+    "PostGenerateTargetCommand": "touchgfx update_project",
+    "CompileSimulatorCommand": "make -f simulator/gcc/Makefile -j8",
+    "RunSimulatorCommand": "build\\bin\\simulator.exe",
+    "LandscapeSkinX": 0,
+    "LandscapeSkinY": 0,
+    "PortraitSkinX": 0,
+    "PortraitSkinY": 0,
+    "DisplayOrientation": "Portrait",
+    "Family": "STM32F4",
+    "Platform": "m4",
+    "ProjectFile": "../F407-TouchGFX.ioc",
+    "OptionalComponentsRoot": "../Middlewares/ST/touchgfx_components",
+    "OptionalComponents": []
+  },
+  "Version": "4.20.0"
+}

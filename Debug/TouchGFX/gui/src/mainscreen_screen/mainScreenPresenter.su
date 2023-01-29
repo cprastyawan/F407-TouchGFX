@@ -1,0 +1,27 @@
+../Middlewares/ST/touchgfx/framework/include/mvp/Presenter.hpp:37:18:virtual void touchgfx::Presenter::activate()	16	static
+../Middlewares/ST/touchgfx/framework/include/mvp/Presenter.hpp:47:18:virtual void touchgfx::Presenter::deactivate()	16	static
+../Middlewares/ST/touchgfx/framework/include/mvp/Presenter.hpp:52:13:touchgfx::Presenter::~Presenter()	16	static
+../Middlewares/ST/touchgfx/framework/include/mvp/Presenter.hpp:52:13:virtual touchgfx::Presenter::~Presenter()	16	static
+../Middlewares/ST/touchgfx/framework/include/mvp/Presenter.hpp:58:5:touchgfx::Presenter::Presenter()	16	static
+../TouchGFX/gui/include/gui/model/ModelListener.hpp:10:5:ModelListener::ModelListener()	16	static
+../TouchGFX/gui/include/gui/model/ModelListener.hpp:12:13:ModelListener::~ModelListener()	16	static
+../TouchGFX/gui/include/gui/model/ModelListener.hpp:12:13:virtual ModelListener::~ModelListener()	16	static
+../TouchGFX/gui/include/gui/model/ModelListener.hpp:19:18:virtual void ModelListener::setNewValue(unsigned int)	16	static
+../TouchGFX/gui/include/gui/model/ModelListener.hpp:20:18:virtual void ModelListener::setLatitude(float)	16	static
+../TouchGFX/gui/include/gui/model/ModelListener.hpp:21:18:virtual void ModelListener::setLongitude(float)	16	static
+../TouchGFX/gui/include/gui/model/ModelListener.hpp:22:18:virtual void ModelListener::setVoltage(uint16_t)	16	static
+../TouchGFX/gui/include/gui/model/ModelListener.hpp:23:18:virtual void ModelListener::setCurrent(uint16_t)	16	static
+../TouchGFX/gui/include/gui/model/ModelListener.hpp:24:18:virtual void ModelListener::setTerimaText(uint8_t*, uint16_t)	24	static
+../TouchGFX/gui/include/gui/model/ModelListener.hpp:25:18:virtual void ModelListener::setKirimText(uint8_t)	16	static
+../TouchGFX/gui/include/gui/mainscreen_screen/mainScreenPresenter.hpp:28:13:mainScreenPresenter::~mainScreenPresenter()	16	static
+../TouchGFX/gui/include/gui/mainscreen_screen/mainScreenPresenter.hpp:28:13:virtual mainScreenPresenter::~mainScreenPresenter()	16	static
+../TouchGFX/gui/src/mainscreen_screen/mainScreenPresenter.cpp:4:1:mainScreenPresenter::mainScreenPresenter(mainScreenView&)	16	static
+../TouchGFX/gui/src/mainscreen_screen/mainScreenPresenter.cpp:10:6:virtual void mainScreenPresenter::activate()	16	static
+../TouchGFX/gui/src/mainscreen_screen/mainScreenPresenter.cpp:15:6:virtual void mainScreenPresenter::deactivate()	16	static
+../TouchGFX/gui/src/mainscreen_screen/mainScreenPresenter.cpp:20:6:virtual void mainScreenPresenter::setNewValue(unsigned int)	16	static
+../TouchGFX/gui/src/mainscreen_screen/mainScreenPresenter.cpp:24:6:virtual void mainScreenPresenter::setLatitude(float)	16	static
+../TouchGFX/gui/src/mainscreen_screen/mainScreenPresenter.cpp:28:6:virtual void mainScreenPresenter::setLongitude(float)	16	static
+../TouchGFX/gui/src/mainscreen_screen/mainScreenPresenter.cpp:32:6:virtual void mainScreenPresenter::setVoltage(uint16_t)	16	static
+../TouchGFX/gui/src/mainscreen_screen/mainScreenPresenter.cpp:36:6:virtual void mainScreenPresenter::setCurrent(uint16_t)	16	static
+../TouchGFX/gui/src/mainscreen_screen/mainScreenPresenter.cpp:40:6:virtual void mainScreenPresenter::setTerimaText(uint8_t*, uint16_t)	24	static
+../TouchGFX/gui/src/mainscreen_screen/mainScreenPresenter.cpp:44:6:virtual void mainScreenPresenter::setKirimText(uint8_t)	16	static

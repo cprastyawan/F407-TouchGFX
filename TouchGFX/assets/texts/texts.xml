@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextDatabase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="texts.xsd" Version="4.20.0">
+  <Languages>
+    <Language Id="GB" />
+  </Languages>
+  <Texts>
+    <TextGroup Id="Group1">
+      <Text Id="__SingleUse_MAZ1" Alignment="Center" TypographyId="Typography_00">
+        <Translation Language="GB">18-10-2021</Translation>
+      </Text>
+      <Text Id="__SingleUse_4CH1" Alignment="Center" TypographyId="Typography_00">
+        <Translation Language="GB">ID Node: A</Translation>
+      </Text>
+      <Text Id="__SingleUse_KVTF" Alignment="Center" TypographyId="Typography_00">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_I8OP" Alignment="Center" TypographyId="Typography_00">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_KYMK" Alignment="Center" TypographyId="Typography_00">
+        <Translation Language="GB">Masukkan pesan yang anda kirim: </Translation>
+      </Text>
+      <Text Id="__SingleUse_BJJN" Alignment="Center" TypographyId="Typography_00">
+        <Translation Language="GB">&lt;&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_RUSE" Alignment="Center" TypographyId="Typography_00">
+        <Translation Language="GB">Pesan yang anda terima</Translation>
+      </Text>
+      <Text Id="__SingleUse_BDMO" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">Latitude: &lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_RJFK" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">Longitude: &lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_S8SJ" Alignment="Center" TypographyId="Typography_00">
+        <Translation Language="GB">Lokasi</Translation>
+      </Text>
+      <Text Id="__SingleUse_MHEE" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_WYLU" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">0.0</Translation>
+      </Text>
+      <Text Id="__SingleUse_HGB8" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">0.0</Translation>
+      </Text>
+      <Text Id="__SingleUse_08X8" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">0.0</Translation>
+      </Text>
+      <Text Id="__SingleUse_L3YU" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">0.0</Translation>
+      </Text>
+      <Text Id="__SingleUse_DLKZ" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+    </TextGroup>
+  </Texts>
+  <Typographies>
+    <Typography Id="Typography_00" Font="verdana.ttf" Size="12" Bpp="4" Direction="LTR" FallbackCharacter="?" WidgetWildcardCharacters="0123456789 :APM" WildcardCharacterRanges="0x20-0x7E" />
+    <Typography Id="Default" Font="verdana.ttf" Size="20" Bpp="4" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Large" Font="verdana.ttf" Size="40" Bpp="4" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Small" Font="verdana.ttf" Size="10" Bpp="4" Direction="LTR" FallbackCharacter="?" />
+  </Typographies>
+</TextDatabase>
